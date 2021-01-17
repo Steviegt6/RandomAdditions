@@ -6,7 +6,6 @@
   "mixins": [
     "ArmorToughnessMixin",
     "AutoSmeltMixin",
-    "OptionsScreenMixin",
     "ProsperousPickaxeEnchantMixin",
     "ProsperousSwordEnchantMixin",
     "QuiverMixin"

@@ -10,12 +10,9 @@
   "icon": "assets/randomadditions/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "pbone.randomadditions.client.RandomAdditionsClient"
-    ],
-    "main": [
-      "pbone.randomadditions.RandomAdditions"
-    ]
+    "client": [ "pbone.randomadditions.client.RandomAdditionsClient" ],
+    "main": [ "pbone.randomadditions.RandomAdditions" ],
+    "modmenu": [ "pbone.randomadditions.ModMenuIntegration" ]
   },
   "mixins": [
     "RandomAdditions.mixins.json"
@@ -23,6 +20,8 @@
   "depends": {
     "fabricloader": ">=0.10.8",
     "fabric": "*",
-    "minecraft": "1.16.4"
+    "curios": "*",
+    "minecraft": ">=1.16.4",
+    "cloth-config2": ">=4.8.3"
   }
 }
